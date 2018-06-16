@@ -1,0 +1,159 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+body{ 
+      margin: 8px;}
+
+section {width: 940px;
+         height: 500px;
+         background-color: #ffffff;
+         color: black;
+         padding: 10px;
+         display: block;
+         margin-left: 250px;
+         
+}     
+
+section {border: auto 0;
+         font-size: 100%;
+         font: inherit;
+         vertical-align: baseline;
+         color: black;
+}
+
+
+
+
+
+
+header{
+    position: static;
+    width: 960px;
+    margin:0 auto;
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+    
+}
+img.profile-image{
+    width: 250px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 200px;
+
+}
+
+h1{font-size: 30px;
+   padding:15px;
+    display:inline-block;
+    background-color: #4aaaa5;
+     color:#fff;
+}
+h1,h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav a {
+    text-decoration: none;
+    color:#777;
+    letter-spacing: 2px;
+    word-spacing: 7px;
+
+}
+h2{
+    color:#4aaaa5;
+    padding:15px;
+    font-weight: bolder;
+    font-size: 20px;
+    border-bottom: 2px solid #ccc;
+    text-align: left;
+
+
+}
+nav {float:right;
+     margin-top:25px;
+     text-align: center;
+    }
+footer{
+    background-color:#666;
+    color:#fff;
+    height: 100px;
+    width: 960px;
+    margin-left: 250px;
+}
+input[type=text], select,textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 4px;
+    resize: vertical;   
+}
+
+input[type=submit]{
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+input[type=submit] hover {
+    background-color: #4aaaa5;
+
+}
+
+.container {
+    border-radius: 5px;
+    background-color:#fff;
+    padding: 20px;
+    height: 450px;
+    width: 450px;
+    margin-left: 200px;
+
+
+}
+
+
+#contact{
+    margin-top: 30px;
+    block-size: 15px;
+
+}
+.wrapper {
+    width:100%;
+    margin:20px;
+
+}
+
+
+
+@media screen and (max-width: 980px)
+    
+ {
+     body { background-color: blue;
+        
+     }}
+
+@media screen and (max-width: 768px)
+
+    {body { background-color:yellow;
+
+}}
+
+
+@media screen and (max-width: 640px)
+{
+    header{position: fixed;
+           top:0px;
+           margin:0 auto;
+           
+        }}
